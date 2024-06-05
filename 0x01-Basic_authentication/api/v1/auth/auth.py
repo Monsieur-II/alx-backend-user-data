@@ -1,5 +1,9 @@
+#!/usr/bin/env python3
+""" Module of Auth views
+"""
 from flask import request, jsonify, abort
 from typing import List, TypeVar
+
 
 class Auth:
     """Auth class.
